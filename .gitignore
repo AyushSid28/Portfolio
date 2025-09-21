@@ -33,9 +33,8 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# Personal files
-Resume_Ayush.pdf
-*.pdf
+# Personal files (keeping resume public for portfolio)
+# Resume_Ayush.pdf - commented out to allow resume in public repo
 
 # IDE
 .vscode/
