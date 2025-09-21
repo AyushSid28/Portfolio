@@ -7,7 +7,6 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Send, Github, Linkedin, Twitter, Mail, MessageSquare, MapPin, Phone,Instagram } from "lucide-react"
-import emailjs from "@emailjs/browser"
 
 export default function Contact() {
   const [formState, setFormState] = useState({
@@ -30,42 +29,22 @@ export default function Contact() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
 
-    // EmailJS configuration
-    const serviceID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
-    const templateID = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
-    const userID = process.env.NEXT_PUBLIC_EMAILJS_USER_ID;
- // Your EmailJS Public Key (User ID)
-
-    // Get current timestamp in a readable format
-    const time = new Date().toLocaleString("en-US", {
-      dateStyle: "medium",
-      timeStyle: "short",
-    })
-
-    // Prepare the template parameters
-    const templateParams = {
-      name: formState.name,
-      email: formState.email,
-      subject: formState.subject,
-      message: formState.message,
-      time: time,
-      to_email: "ayushsiddhant2@gmail.com", // Your Gmail address
-    }
-
-    // Send email using EmailJS
-    emailjs.send(serviceID!, templateID!, templateParams, userID!).then(
-      (response) => {
-        console.log("Email sent successfully:", response.status, response.text)
-        // Reset form
-        setFormState({ name: "", email: "", subject: "", message: "" })
-        // Show success message
-        alert("Thanks for your message! I'll get back to you soon.")
-      },
-      (error) => {
-        console.error("Failed to send email:", error)
-        alert("Failed to send your message. Please try again later.")
-      }
+    // Create mailto link with form data
+    const subject = encodeURIComponent(`Portfolio Contact: ${formState.subject}`)
+    const body = encodeURIComponent(
+      `Name: ${formState.name}\nEmail: ${formState.email}\n\nMessage:\n${formState.message}\n\n---\nSent from AyushSid.dev Portfolio`
     )
+    
+    const mailtoLink = `mailto:ayushsiddhant2@gmail.com?subject=${subject}&body=${body}`
+    
+    // Open user's email client
+    window.open(mailtoLink, '_blank')
+    
+    // Reset form
+    setFormState({ name: "", email: "", subject: "", message: "" })
+    
+    // Show success message
+    alert("Your email client will open with a pre-filled message. Please send it to complete your message!")
   }
 
   const socialLinks = [
