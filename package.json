@@ -1,12 +1,31 @@
 {
-  "name": "my-v0-project",
-  "version": "0.1.0",
+  "name": "ayush-portfolio",
+  "version": "1.0.0",
+  "description": "Professional portfolio website for Ayush Siddhant - Backend Engineer & AI Systems Specialist",
   "private": true,
+  "author": "Ayush Siddhant <ayushsiddhant2@gmail.com>",
+  "homepage": "https://ayushsid.dev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AyushSid28/Portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "nextjs",
+    "react",
+    "typescript",
+    "tailwindcss",
+    "ai",
+    "backend-engineer"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "type-check": "tsc --noEmit",
+    "preview": "next build && next start"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
