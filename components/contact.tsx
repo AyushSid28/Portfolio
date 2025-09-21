@@ -29,22 +29,33 @@ export default function Contact() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
 
+    // Validate form
+    if (!formState.name || !formState.email || !formState.message) {
+      alert("Please fill in all required fields!")
+      return
+    }
+
     // Create mailto link with form data
-    const subject = encodeURIComponent(`Portfolio Contact: ${formState.subject}`)
+    const subject = encodeURIComponent(`Portfolio Contact: ${formState.subject || 'General Inquiry'}`)
     const body = encodeURIComponent(
       `Name: ${formState.name}\nEmail: ${formState.email}\n\nMessage:\n${formState.message}\n\n---\nSent from AyushSid.dev Portfolio`
     )
     
     const mailtoLink = `mailto:ayushsiddhant2@gmail.com?subject=${subject}&body=${body}`
     
-    // Open user's email client
-    window.open(mailtoLink, '_blank')
-    
-    // Reset form
-    setFormState({ name: "", email: "", subject: "", message: "" })
-    
-    // Show success message
-    alert("Your email client will open with a pre-filled message. Please send it to complete your message!")
+    // Try to open email client
+    try {
+      window.location.href = mailtoLink
+      
+      // Reset form
+      setFormState({ name: "", email: "", subject: "", message: "" })
+      
+      // Show success message
+      alert("Your email client should open with a pre-filled message. If it doesn't open, please email me directly at ayushsiddhant2@gmail.com")
+    } catch (error) {
+      // Fallback: show email address
+      alert(`Please email me directly at: ayushsiddhant2@gmail.com\n\nSubject: ${formState.subject || 'General Inquiry'}\n\nMessage: ${formState.message}`)
+    }
   }
 
   const socialLinks = [
