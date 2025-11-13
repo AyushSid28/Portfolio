@@ -12,6 +12,22 @@ export default function Experience() {
 
   const experiences = [
     {
+      company: "TheAgentic",
+      position: "Backend Engineer",
+      duration: "September 2025 - Present",
+      location: "Remote",
+      description: "Building scalable AI-powered backend systems and intelligent automation solutions",
+      achievements: [
+        "Developing advanced AI agent architectures for enterprise automation",
+        "Implementing scalable microservices with real-time data processing capabilities",
+        "Designing intelligent workflow orchestration systems",
+        "Optimizing backend performance for high-throughput AI applications"
+      ],
+      technologies: ["Python", "AI Agents", "Microservices", "Real-time Processing", "Backend Architecture", "Automation"],
+      icon: <Brain className="h-6 w-6 text-blue-400" />,
+      color: "from-blue-500 to-violet-500"
+    },
+    {
       company: "Qlaws.ai",
       position: "Backend Engineer",
       duration: "June 2025 - September 2025",
