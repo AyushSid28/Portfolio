@@ -121,6 +121,13 @@ export default function Timeline() {
 
   const timelineEvents = [
     {
+      year: "Sep 2025 - Present",
+      title: "TheAgentic - Backend Engineer",
+      description: "Building scalable AI-powered backend systems and intelligent automation solutions. Developing advanced AI agent architectures for enterprise automation and implementing scalable microservices with real-time data processing capabilities.",
+      icon: <Briefcase className="h-5 w-5" />,
+      category: "Experience",
+    },
+    {
       year: "2023",
       title: "Started B.Tech in Computer Science",
       description:
