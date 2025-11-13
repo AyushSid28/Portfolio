@@ -94,7 +94,7 @@ export default function Hero() {
               <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
             </Button>
             <a
-              href="/Resume_Ayush.pdf" 
+              href="/Resume_.pdf" 
               download
               className="flex items-center"
             >

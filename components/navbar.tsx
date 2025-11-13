@@ -87,7 +87,7 @@ export default function Navbar() {
             className="ml-4 bg-gradient-to-r from-violet-600 to-fuchsia-600 hover:from-violet-700 hover:to-fuchsia-700 text-white border-0"
           >
             <a
-              href="/Resume_Ayush.pdf"
+              href="/Resume_.pdf"
               download
               className="flex items-center"
             >

@@ -41,7 +41,7 @@ export default function CTA() {
                 <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
               </Button>
             </a>
-              <a href="/Resume_Ayush.pdf" download>
+              <a href="/Resume_.pdf" download>
               <Button variant="outline" size="lg" className="border-violet-500 text-violet-300 hover:bg-violet-500/10">
                 <Download className="mr-2 h-5 w-5" />
                 Download Resume
