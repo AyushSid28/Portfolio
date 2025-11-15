@@ -19,9 +19,9 @@ export default function Experience() {
       description: "Building scalable AI-powered backend systems and intelligent automation solutions",
       achievements: [
         "Developing advanced AI agent architectures for enterprise automation",
-        "Implementing scalable microservices with real-time data processing capabilities",
-        "Designing intelligent workflow orchestration systems",
-        "Optimizing backend performance for high-throughput AI applications"
+        "Built a rug pool detection tool/agent that finds a safe or unsafe crypto token",
+        "Developed a TTS model that can convert script to audio with focus on region based phonetics",
+        "Developed a gig agent which can find correct match for a job requirement"
       ],
       technologies: ["Python", "AI Agents", "Microservices", "Real-time Processing", "Backend Architecture", "Automation"],
       icon: <Brain className="h-6 w-6 text-blue-400" />,

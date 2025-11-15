@@ -28,7 +28,7 @@ EDUCATION:
 - Strong foundation in computer science and AI technologies
 
 SUMMARY:
-Ayush is a Backend Engineer & AI Systems Specialist with expertise in building scalable backend systems and integrating next-generation AI solutions. He has 27+ repositories showcasing AI & Agentic Systems work, with professional experience at MINTRIX, Dream Skrin, and Qlaws.ai.
+Ayush is a Backend Engineer & AI Systems Specialist with expertise in building scalable backend systems and integrating next-generation AI solutions. He has 27+ repositories showcasing AI & Agentic Systems work, with professional experience at MINTRIX, Dream Skrin, Qlaws.ai, and TheAgentic.
 
 TECHNICAL SKILLS:
 Languages: Python, C++, Java, Flutter, JavaScript
@@ -39,19 +39,25 @@ Agents Framework: OpenAI Agents SDK, CrewAI, LangGraph, AutoGen, MCP
 DevOps: Docker, Kubernetes, CI/CD, Apache Kafka, Prometheus, Grafana
 
 PROFESSIONAL EXPERIENCE:
-1. **Qlaws.ai – Legal Solution (May 2025 - August 2025)**
+1. **TheAgentic – Backend Engineer (September 2025 - Present)**
+   - Developing advanced AI agent architectures for enterprise automation
+   - Built a rug pool detection tool/agent that finds a safe or unsafe crypto token
+   - Developed a TTS model that can convert script to audio with focus on region based phonetics
+   - Developed a gig agent which can find correct match for a job requirement
+
+2. **Qlaws.ai – Legal Solution (June 2025 - September 2025)**
    - Implemented AI-powered legal document processing system
    - Refactored summarization pipeline and migrated to Weaviate vector database
    - Developed drafting agent automating LOI to SPA document creation
    - Designed dual-architecture chatbot (Redis/PostgreSQL) for legal document queries
 
-2. **Dream Skrin – D2C Solution (April 2025 - May 2025)**
+3. **Dream Skrin – D2C Solution (April 2025 - May 2025)**
    - Built intelligence layer for supply chain and inventory optimization
    - Designed distributed Central Intelligence Layer unifying supply chain operations
    - Developed real-time demand forecasting using XGBoost
    - Optimized vendor allocation and routing using OR-Tools, reducing delivery delays by 30%
 
-3. **MINTRIX – AI-Based Learning (Nov 2024 - May 2025)**
+4. **MINTRIX – AI-Based Learning (Nov 2024 - April 2025)**
    - Developed RAG chatbot and CRM integration for learning platform
    - Enhanced user interaction through AI chatbot with Retrieval-Augmented Generation
    - Implemented CRM integration to capture and analyze user engagement data
