@@ -74,7 +74,7 @@ The portfolio includes an interactive AI assistant that can answer questions abo
 
 ## 📄 Resume
 
-Download my latest resume: [Resume_.pdf](./Resume_.pdf)
+Download my latest resume: [resume.pdf](./public/resume.pdf)
 
 ## 🌐 Live Demo
 
