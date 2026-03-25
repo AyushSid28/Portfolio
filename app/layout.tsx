@@ -2,6 +2,7 @@ import type React from "react"
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import "./globals.css"
+import { Analytics } from "@vercel/analytics/next"
 import { ThemeProvider } from "@/components/theme-provider"
 import VoiceAssistant from "@/components/voice-assistant"
 
@@ -56,6 +57,7 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
           {children}
           <VoiceAssistant />
+          <Analytics />
         </ThemeProvider>
       </body>
     </html>
