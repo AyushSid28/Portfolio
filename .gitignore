@@ -35,6 +35,7 @@ next-env.d.ts
 
 # Personal files (keeping resume public for portfolio)
 # Resume_Ayush.pdf - commented out to allow resume in public repo
+/Resume 2.pdf
 
 # IDE
 .vscode/
