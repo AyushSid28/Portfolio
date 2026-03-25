@@ -145,7 +145,8 @@ export default function Timeline() {
     {
       year: "June 2024 - April 2025",
       title: "MINTRIX - Backend Engineer",
-      description: "Joined as AI Developer, developing RAG chatbot and CRM integration for the learning platform, enhancing user interaction through AI-powered educational content.",
+      description:
+        "Developed RAG chatbot and CRM integration for the learning platform as Backend Engineer, enhancing user interaction through AI-powered educational content.",
       icon: <Award className="h-5 w-5" />,
       category: "Experience",
     },
