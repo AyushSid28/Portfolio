@@ -46,7 +46,7 @@ export default function Experience() {
     {
       company: "Dream Skrin",
       position: "Backend Engineer",
-      duration: "April 2025 - May 2025",
+      duration: "February 2025 - June 2025",
       location: "Remote",
       description: "Built intelligence layer for supply chain and inventory optimization",
       achievements: [
@@ -61,8 +61,8 @@ export default function Experience() {
     },
     {
       company: "MINTRIX",
-      position: "AI Developer",
-      duration: "Nov 2024 - April 2025",
+      position: "Backend Engineer",
+      duration: "June 2024 - April 2025",
       location: "Remote",
       description: "Developed RAG chatbot and CRM integration for learning platform",
       achievements: [

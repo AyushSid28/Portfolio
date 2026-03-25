@@ -51,13 +51,13 @@ PROFESSIONAL EXPERIENCE:
    - Developed drafting agent automating LOI to SPA document creation
    - Designed dual-architecture chatbot (Redis/PostgreSQL) for legal document queries
 
-3. **Dream Skrin – D2C Solution (April 2025 - May 2025)**
+3. **Dream Skrin – Supply Chain Intelligence (February 2025 - June 2025)**
    - Built intelligence layer for supply chain and inventory optimization
    - Designed distributed Central Intelligence Layer unifying supply chain operations
    - Developed real-time demand forecasting using XGBoost
    - Optimized vendor allocation and routing using OR-Tools, reducing delivery delays by 30%
 
-4. **MINTRIX – AI-Based Learning (Nov 2024 - April 2025)**
+4. **MINTRIX – AI-Based Learning (June 2024 - April 2025)**
    - Developed RAG chatbot and CRM integration for learning platform
    - Enhanced user interaction through AI chatbot with Retrieval-Augmented Generation
    - Implemented CRM integration to capture and analyze user engagement data

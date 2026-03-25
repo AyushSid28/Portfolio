@@ -143,14 +143,14 @@ export default function Timeline() {
       category: "Experience",
     },
     {
-      year: "Nov 2024",
-      title: "First Internship - MINTRIX",
+      year: "June 2024 - April 2025",
+      title: "MINTRIX - Backend Engineer",
       description: "Joined as AI Developer, developing RAG chatbot and CRM integration for the learning platform, enhancing user interaction through AI-powered educational content.",
       icon: <Award className="h-5 w-5" />,
       category: "Experience",
     },
     {
-      year: "April 2025",
+      year: "Feb 2025 - June 2025",
       title: "Dream Skrin - Backend Engineer",
       description: "Built intelligence layer for supply chain and inventory optimization, designing distributed Central Intelligence Layer and developing real-time demand forecasting systems.",
       icon: <Briefcase className="h-5 w-5" />,
