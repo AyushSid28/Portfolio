@@ -2,8 +2,12 @@
 import { ArrowUp } from "lucide-react"
 import Link from "next/link"
 
+const deploySha = process.env.NEXT_PUBLIC_VERCEL_GIT_COMMIT_SHA ?? ""
+const deployRef = process.env.NEXT_PUBLIC_VERCEL_GIT_COMMIT_REF ?? ""
+
 export default function Footer() {
   const currentYear = new Date().getFullYear()
+  const shortSha = deploySha ? deploySha.slice(0, 7) : null
 
   const scrollToTop = () => {
     window.scrollTo({
@@ -78,6 +82,15 @@ export default function Footer() {
         <div className="border-t border-violet-500/20 pt-8 text-center">
           <p className="text-gray-400">© {currentYear} Ayush Siddhant. All rights reserved.</p>
           <p className="text-gray-500 text-sm mt-2">Built with Next.js, Three.js, Framer Motion, and Tailwind CSS</p>
+          {shortSha && (
+            <p className="text-gray-600 text-xs mt-3 font-mono">
+              Deploy: {shortSha}
+              {deployRef ? ` · ${deployRef}` : ""} ·{" "}
+              <Link href="/api/deploy-info" className="text-violet-500/80 hover:text-violet-400 underline-offset-2 hover:underline">
+                /api/deploy-info
+              </Link>
+            </p>
+          )}
         </div>
       </div>
     </footer>
