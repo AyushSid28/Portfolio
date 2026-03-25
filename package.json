@@ -1,10 +1,10 @@
 {
   "name": "ayush-portfolio",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Professional portfolio website for Ayush Siddhant - Backend Engineer & AI Systems Specialist",
   "private": true,
   "engines": {
-    "node": "20.x"
+    "node": "22.x"
   },
   "author": "Ayush Siddhant <ayushsiddhant2@gmail.com>",
   "homepage": "https://ayushsid.dev",
