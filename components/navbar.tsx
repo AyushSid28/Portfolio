@@ -4,8 +4,6 @@ import { useState, useEffect } from "react"
 import Link from "next/link"
 import { Menu, X, Download } from "lucide-react"
 import { motion, AnimatePresence } from "framer-motion"
-import { Button } from "@/components/ui/button"
-import GradientText from "./GradientText"
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
@@ -82,28 +80,29 @@ export default function Navbar() {
             </Link>
           ))}
 
-          <Button
-            size="sm"
-            className="ml-4 bg-gradient-to-r from-violet-600 to-fuchsia-600 hover:from-violet-700 hover:to-fuchsia-700 text-white border-0"
+          <a
+            href="/resume.pdf"
+            download
+            className="ml-3 inline-flex items-center rounded-md bg-gradient-to-r from-violet-600 to-fuchsia-600 px-3 py-2 text-sm text-white"
           >
-            <a
-              href="/resume.pdf"
-              download
-              className="flex items-center"
-            >
-              <Download className="mr-2 h-4 w-4" />
-              Resume
-            </a>
-          </Button>
+            <Download className="mr-1.5 h-4 w-4" />
+            CV
+          </a>
+          <a
+            href="/resume-ai.pdf"
+            download
+            className="ml-2 inline-flex items-center rounded-md border border-fuchsia-500/60 px-3 py-2 text-sm text-fuchsia-200 hover:bg-fuchsia-500/10"
+          >
+            AI CV
+          </a>
 
         </nav>
 
         {/* Mobile Navigation Toggle */}
         <div className="md:hidden flex items-center">
-          <Button variant="outline" size="sm" className="mr-4 border-violet-500 text-violet-300 hover:bg-violet-500/10">
-            <Download className="mr-2 h-4 w-4" />
-            Resume
-          </Button>
+          <a href="/resume-ai.pdf" download className="mr-3 text-xs text-fuchsia-300">
+            AI CV
+          </a>
 
           <button
             className="text-gray-300 hover:text-white"
@@ -127,6 +126,12 @@ export default function Navbar() {
           >
             <div className="container mx-auto px-4 py-4">
               <nav className="flex flex-col space-y-2">
+                <a href="/resume.pdf" download className="py-2 px-4 text-violet-300" onClick={() => setIsOpen(false)}>
+                  Backend CV
+                </a>
+                <a href="/resume-ai.pdf" download className="py-2 px-4 text-fuchsia-300" onClick={() => setIsOpen(false)}>
+                  AI CV
+                </a>
                 {navLinks.map((link) => (
                   <Link
                     key={link.name}

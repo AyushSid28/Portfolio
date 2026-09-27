@@ -93,7 +93,7 @@ export default function About() {
       content: (
         <div>
           <p className="mb-2">
-            Built comprehensive projects including SiteForge (agentic website development) and MarketMinds (stock analysis with 85% accuracy).
+            Recent systems work includes GridLocalizer (outage localization), KilnDB (a storage engine from scratch), and PuneRentals. AI projects include FinShield, TrialSync, and HealthSync.
           </p>
           <p className="mb-2">
             Developed Learnix AI-powered e-learning platform with comprehensive school management system and RAG chatbot.
@@ -138,7 +138,7 @@ export default function About() {
               <div className="absolute -inset-1 bg-gradient-to-r from-violet-500 to-fuchsia-500 rounded-xl blur-md opacity-75"></div>
               <div className="relative bg-black rounded-xl overflow-hidden aspect-[3/4]">
                 <Image
-                  src="/ayush.jpg"
+                  src="/ayush.png"
                   alt="Ayush Siddhant"
                   width={450}
                   height={600}

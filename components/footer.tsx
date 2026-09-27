@@ -34,6 +34,8 @@ export default function Footer() {
         { name: "LinkedIn", href: "https://www.linkedin.com/in/ayush-siddhant-5790981a9/" },
         { name: "Instagram", href: "https://www.instagram.com/_iayusshh_/" },
         { name: "Email", href: "mailto:ayushsiddhant2@gmail.com" },
+        { name: "Backend CV", href: "/resume.pdf" },
+        { name: "AI CV", href: "/resume-ai.pdf" },
       ],
     },
   ]

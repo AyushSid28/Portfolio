@@ -44,7 +44,13 @@ export default function CTA() {
               <a href="/resume.pdf" download>
               <Button variant="outline" size="lg" className="border-violet-500 text-violet-300 hover:bg-violet-500/10">
                 <Download className="mr-2 h-5 w-5" />
-                Download Resume
+                Backend CV
+              </Button>
+              </a>
+              <a href="/resume-ai.pdf" download>
+              <Button variant="outline" size="lg" className="border-fuchsia-500 text-fuchsia-300 hover:bg-fuchsia-500/10">
+                <Download className="mr-2 h-5 w-5" />
+                AI CV
               </Button>
               </a>
             </div>

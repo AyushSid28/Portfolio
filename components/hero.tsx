@@ -93,14 +93,16 @@ export default function Hero() {
             ><Link href="#contact">Let&apos;s Collaborate</Link>
               <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
             </Button>
-            <a
-              href="/resume.pdf" 
-              download
-              className="flex items-center"
-            >
+            <a href="/resume.pdf" download className="flex items-center">
               <Button variant="outline" size="lg" className="border-violet-500 text-violet-300 hover:bg-violet-500/10">
                 <Download className="mr-2 h-4 w-4" />
-                Download Resume
+                Backend CV
+              </Button>
+            </a>
+            <a href="/resume-ai.pdf" download className="flex items-center">
+              <Button variant="outline" size="lg" className="border-fuchsia-500 text-fuchsia-300 hover:bg-fuchsia-500/10">
+                <Download className="mr-2 h-4 w-4" />
+                AI CV
               </Button>
             </a>
           </motion.div>

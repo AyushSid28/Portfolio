@@ -14,14 +14,13 @@ export default function Experience() {
     {
       company: "TheAgentic",
       position: "Backend Engineer",
-      duration: "September 2025 - Present",
+      duration: "September 2025 – Present",
       location: "Remote",
       description: "Building scalable AI-powered backend systems and intelligent automation solutions",
       achievements: [
-        "Developing advanced AI agent architectures for enterprise automation",
-        "Built a rug pool detection tool/agent that finds a safe or unsafe crypto token",
-        "Developed a TTS model that can convert script to audio with focus on region based phonetics",
-        "Developed a gig agent which can find correct match for a job requirement"
+        "Built FastAPI and LangGraph services for automated workflows across multiple business cases",
+        "Developed a risk pipeline that aggregates market data into automated token assessments",
+        "Built semantic search and matching with embeddings for candidate-job recommendations"
       ],
       technologies: ["Python", "AI Agents", "Microservices", "Real-time Processing", "Backend Architecture", "Automation"],
       icon: <Brain className="h-6 w-6 text-blue-400" />,
@@ -30,7 +29,7 @@ export default function Experience() {
     {
       company: "Qlaws.ai",
       position: "Backend Engineer",
-      duration: "June 2025 - September 2025",
+      duration: "January 2025 – August 2025",
       location: "Remote",
       description: "Implemented AI-powered legal document processing system",
       achievements: [
@@ -45,8 +44,8 @@ export default function Experience() {
     },
     {
       company: "Dream Skrin",
-      position: "Backend Engineer",
-      duration: "February 2025 - June 2025",
+      position: "Backend Engineer, Internship",
+      duration: "October 2024 – January 2025",
       location: "Remote",
       description: "Built intelligence layer for supply chain and inventory optimization",
       achievements: [
@@ -61,8 +60,8 @@ export default function Experience() {
     },
     {
       company: "MINTRIX",
-      position: "Backend Engineer",
-      duration: "June 2024 - April 2025",
+      position: "Backend Engineer, Internship",
+      duration: "May 2024 – October 2024",
       location: "Remote",
       description: "Developed RAG chatbot and CRM integration for learning platform",
       achievements: [

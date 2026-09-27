@@ -40,41 +40,39 @@ DevOps: Docker, Kubernetes, CI/CD, Apache Kafka, Prometheus, Grafana
 
 PROFESSIONAL EXPERIENCE:
 1. **TheAgentic – Backend Engineer (September 2025 - Present)**
-   - Developing advanced AI agent architectures for enterprise automation
-   - Built a rug pool detection tool/agent that finds a safe or unsafe crypto token
-   - Developed a TTS model that can convert script to audio with focus on region based phonetics
-   - Developed a gig agent which can find correct match for a job requirement
+   - FastAPI and LangGraph services for automated workflows
+   - Risk pipeline aggregating market data into token assessments
+   - Embedding-based semantic search for candidate-job matching
 
-2. **Qlaws.ai – Legal Solution (June 2025 - September 2025)**
+2. **Qlaws.ai – Legal Solution (January 2025 - August 2025)**
    - Implemented AI-powered legal document processing system
    - Refactored summarization pipeline and migrated to Weaviate vector database
    - Developed drafting agent automating LOI to SPA document creation
    - Designed dual-architecture chatbot (Redis/PostgreSQL) for legal document queries
 
-3. **Dream Skrin – Supply Chain Intelligence (February 2025 - June 2025)**
+3. **Dream Skrin – Supply Chain Intelligence, Internship (October 2024 - January 2025)**
    - Built intelligence layer for supply chain and inventory optimization
    - Designed distributed Central Intelligence Layer unifying supply chain operations
    - Developed real-time demand forecasting using XGBoost
    - Optimized vendor allocation and routing using OR-Tools, reducing delivery delays by 30%
 
-4. **MINTRIX – AI-Based Learning (June 2024 - April 2025)**
+4. **MINTRIX – AI-Based Learning, Internship (May 2024 - October 2024)**
    - Developed RAG chatbot and CRM integration for learning platform
    - Enhanced user interaction through AI chatbot with Retrieval-Augmented Generation
    - Implemented CRM integration to capture and analyze user engagement data
    - Built adaptive learning algorithms to personalize educational content
 
 PROJECTS:
-1. **SiteForge – Agentic Website Development**
-   - Engineered autonomous agent team (Designer, Frontend, Backend, Tester)
-   - Technologies: CrewAI, OpenAI, Jinja2
+1. **GridLocalizer** — outage localization from pole telemetry. Live: https://gridlocalizer.vercel.app
+2. **KilnDB** — storage engine from scratch (WAL, MVCC, B+ trees). Live: https://kilndb.onrender.com
+3. **PuneRentals** — map-first rental intelligence. Live: https://pune-rent-three.vercel.app
+4. **FinShield** — multi-agent fraud detection. Live: https://finshield-bibp.onrender.com
+5. **TrialSync** — clinical trial patient matching with text-to-SQL and scoring agents. https://github.com/AyushSid28/TrialSync
+6. **HealthSync AI** — LangGraph clinical report pipeline. https://github.com/AyushSid28/HealthSyncAI
+7. **ParcelPilot Support** — grounded support copilot. Live: https://parcelpilotsupport.onrender.com
+Also: DirectMesh, RecallFlow, GeoPulse, onchain-scout, Summarization Agent, SiteForge.
 
-2. **MarketMinds – Stock Analysis Agents**
-   - Developed multi-agent system for market insights with 85% accuracy
-   - Technologies: LangChain, OpenAI, CrewAI
-
-3. **Learnix – AI-Powered E-Learning**
-   - Built comprehensive school management system with RAG chatbot
-   - Technologies: Node.js, React, MongoDB, LangChain
+Two resumes: Backend CV at /resume.pdf and AI CV at /resume-ai.pdf.
 
 CERTIFICATIONS:
 - Oracle Generative AI Course (2025)
